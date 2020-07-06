@@ -13,7 +13,11 @@ const Home = () => {
         Добро пожаловать в Pizza Joint</h2>
       <Link to="/base">
         <motion.button
-          animate={{}}
+          whileHover={{
+            scale: 1.1,
+            textShadow: "0px 0px 8px rgb(255,255,255)",
+            boxShadow: "0px 0px 8px rgb(255,255,255)"
+             }}
           >
           Создайте свою пиццу
         </motion.button>
